@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <title>Mock Application</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+    <link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link type="text/css" href="css/mock-app.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="jumbotron vertical-center">
+                <div id="loading-block" class="col-xs-12 col-md-6">
+                    <img src="images/loading.gif" />
+                        <span id="server-health-positive"><h3>Server health is OK!</h3></span>
+                        <span id="server-health-negative"><h3>Server seems to be unreachable!</h3><button id="retry-button" class="btn btn-danger">Retry</button></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="scripts/mock-app.js"></script>
+</body>
+
+</html>
