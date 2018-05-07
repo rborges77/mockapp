@@ -1,0 +1,1 @@
+To run this project you just need to drop the files in your local webserver (make sure it allows CORS headers, mainly "Allow-Cross-Origin").
